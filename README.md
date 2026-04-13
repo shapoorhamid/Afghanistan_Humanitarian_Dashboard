@@ -23,7 +23,7 @@ The dashboard is built using **R Shiny and Leaflet**, combining spatial analysis
 
 ## Key Features
 
-### 🗺️ Interactive Provincial Map
+### Interactive Provincial Map
 - Choropleth map of Afghanistan
 - Select indicators dynamically
 - Hover to view province-level values
@@ -31,14 +31,14 @@ The dashboard is built using **R Shiny and Leaflet**, combining spatial analysis
 
 ---
 
-### 📊 Province Comparison Chart
+### Province Comparison Chart
 - Ranked comparison across provinces
 - Dynamic updates based on selected indicator
 - Clean, policy-style visualization
 
 ---
 
-### 📌 Key Indicators (KPIs)
+### Key Indicators (KPIs)
 - Average vulnerability score  
 - Food insecurity rate  
 - Healthcare access rate  
@@ -46,7 +46,7 @@ The dashboard is built using **R Shiny and Leaflet**, combining spatial analysis
 
 ---
 
-### ⚙️ Dashboard Controls
+### Dashboard Controls
 - Indicator selection (multiple sectors)
 - Province focus (filter view)
 
@@ -134,8 +134,6 @@ afghanistan-humanitarian-dashboard/
 1. Clone the repository  
 2. Open the project in RStudio  
 3. Install required packages:
-
-```r
 install.packages(c("shiny","dplyr","readr","sf","leaflet","ggplot2","scales","bslib"))
 4. shiny::runApp()
 
